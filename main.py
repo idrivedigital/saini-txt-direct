@@ -284,7 +284,7 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f"💥 MVO BOTS COMMANDS\n"
+        f"💥 MVP BOTS COMMANDS\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"📌 𝗠𝗮𝗶𝗻 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀:\n\n"  
@@ -398,7 +398,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[𝄟⃝‌🐬🇳‌ɪᴋʜɪʟ𝄟⃝🐬](https://t.me/+MdZ2996M2G43MWFl)'
+        CR = '[𝄟⃝‌🐬MVP𝄟⃝🐬](https://t.me/+jQ1PzVBpfQEwYmU1)'
     else:
         CR = raw_text3
 
