@@ -6,7 +6,7 @@ services:
     dockerfilePath: Dockerfile
     repo: https://github.com/idrivedigital/saini-txt-direct
     branch: main
-    autoDeploy: false
+    autoDeploy: true
     envVars:
       - key: BOT_TOKEN
         sync: false
